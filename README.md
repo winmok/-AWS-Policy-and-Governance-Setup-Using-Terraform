@@ -1,14 +1,14 @@
-           '#'   AWS Policy and Governance 
+             AWS Policy and Governance 
 This project demonstrates how to implement AWS Policy Creation and Governance Setup using Terraform. It showcases best practices for cloud security, compliance monitoring, and automated policy enforcement.
 
-          '##'    Project Objectives
+             Project Objectives
 1. Policy Creation: Implement IAM policies to enforce security best practices
 2. Governance Setup: Configure AWS Config for continuous compliance monitoring
 3. Resource Tagging: Demonstrate tagging strategies for resource management
 4. S3 Security: Apply encryption, versioning, and access controls
 5. Compliance Monitoring: Track configuration changes and detect violations
 
-           '##'    Project Structure
+               Project Structure
 day21/
 ├── provider.tf      
 ├── variables.tf      
@@ -20,7 +20,8 @@ day21/
 
 
 
-    '#'  IAM Policies Created
+               IAM Policies Created
+
 1. MFA Delete Policy
 Denies S3 object deletion unless Multi-Factor Authentication is present.
 
@@ -33,7 +34,7 @@ Enforces tagging standards for EC2 instances and other resources.
 4. Demo IAM User
 Sample user with attached policies for demonstration purposes.
 
-     '##'   🛡️ AWS Config Rules
+        🛡️ AWS Config Rules
 This project configures those compliance rules:
 
 1.S3 Public Write Prohibited - Prevents public write access to S3 buckets
@@ -43,7 +44,7 @@ This project configures those compliance rules:
 5.Required Tags - Checks for Environment and Owner tags
 6.IAM Password Policy - Enforces strong password requirements
 7.Root MFA Enabled - Ensures root account has MFA configured
-     '##'   🚀 Usage
+   🚀 Usage
 Prerequisites
 AWS CLI configured with appropriate credentials
 Terraform >= 1.0
