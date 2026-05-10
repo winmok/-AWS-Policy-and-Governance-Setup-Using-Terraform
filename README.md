@@ -9,7 +9,7 @@ This project demonstrates how to implement AWS Policy Creation and Governance Se
 5. Compliance Monitoring: Track configuration changes and detect violations
 
            '##'    Project Structure
-project/      
+day21/
 ├── provider.tf       # AWS provider configuration
 ├── variables.tf      # Input variables
 ├── main.tf          # S3 bucket and shared resources
@@ -17,7 +17,6 @@ project/
 ├── config.tf        # AWS Config recorder and rules
 ├── outputs.tf       # Output values
 └── README.md        # This file
-
 
 
 
