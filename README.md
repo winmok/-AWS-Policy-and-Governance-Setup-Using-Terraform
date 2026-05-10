@@ -10,13 +10,13 @@ This project demonstrates how to implement AWS Policy Creation and Governance Se
 
            '##'    Project Structure
 day21/
-├── provider.tf       # AWS provider configuration
-├── variables.tf      # Input variables
-├── main.tf          # S3 bucket and shared resources
-├── iam.tf           # IAM policies and roles
-├── config.tf        # AWS Config recorder and rules
-├── outputs.tf       # Output values
-└── README.md        # This file
+├── provider.tf      
+├── variables.tf      
+├── main.tf          
+├── iam.tf           
+├── config.tf        
+├── outputs.tf       
+└── README.md       
 
 
 
